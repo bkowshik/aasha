@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore Quarto build and temporary files
+_quarto/
+_proc/
+*.log
+*.aux
+*.out
+*.fls
+*.fdb_latexmk

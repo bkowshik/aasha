@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "aasha"
+  site-url: "https://bkowshik.github.io/aasha"
+  description: "The word Aasha in Hindi and Sanskrit means hope, wish, or desire."
+  repo-branch: main
+  repo-url: "https://github.com/bkowshik/aasha"
