@@ -1,0 +1,22 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "aasha",
+    "section": "",
+    "text": "Aasha is a beautiful Hindi and Sanskrit word that means hope, desire, or aspiration. It conveys a sense of optimism, longing, and expectation for something better in the future. In a broader, poetic sense, Aasha can represent:\n\nHope for a brighter future.\nA heartfelt wish or yearning.\nAn unfulfilled desire or small dream that keeps one motivated.",
+    "crumbs": [
+      "aasha"
+    ]
+  },
+  {
+    "objectID": "fifa.html",
+    "href": "fifa.html",
+    "title": "FIFA",
+    "section": "",
+    "text": "source\n\nfetch_fifa_rankings\n\n fetch_fifa_rankings (gender)\n\n\nsource\n\n\nwrite_fifa_rankings\n\n write_fifa_rankings (rankings, filepath)\n\n\nsource\n\n\nparse_fifa_rankings\n\n parse_fifa_rankings (rankings, country='India')\n\n\n\nMen’s World Ranking\n\nresponse = fetch_fifa_rankings(gender = 'men')\nwrite_fifa_rankings(response, '../data/fifa_rankings_men.json')\nparse_fifa_rankings(response, country = 'India')\n\n{'rankingItem': {'idTeam': '43815',\n  'rank': 126,\n  'flag': {'src': 'https://api.fifa.com/api/v3/picture/flags-sq-2/IND',\n   'width': 70,\n   'height': 46,\n   'title': 'India',\n   'alt': 'India'},\n  'name': 'India',\n  'totalPoints': 1133.62,\n  'active': False,\n  'previousRank': 127,\n  'countryURL': '/fifa-world-ranking/IND',\n  'countryCode': 'IND'},\n 'previousPoints': 1133.62,\n 'lastUpdateDate': '2024-12-19T08:50:00+00:00',\n 'nextUpdateDate': None,\n 'tag': {'id': 'AFC', 'text': 'AFC'}}\n\n\n\n\nWomen’s World Ranking\n\nresponse = fetch_fifa_rankings(gender = 'women')\nwrite_fifa_rankings(response, '../data/fifa_rankings_women.json')\nparse_fifa_rankings(response, country = 'India')\n\n{'rankingItem': {'idTeam': '1885024',\n  'rank': 69,\n  'flag': {'src': 'https://api.fifa.com/api/v3/picture/flags-sq-2/IND',\n   'width': 70,\n   'height': 46,\n   'title': 'India',\n   'alt': 'India'},\n  'name': 'India',\n  'totalPoints': 1378.44,\n  'active': False,\n  'previousRank': 69,\n  'countryURL': '/fifa-world-ranking/IND',\n  'countryCode': 'IND'},\n 'previousPoints': 1374.66,\n 'lastUpdateDate': '2025-03-06T08:50:00Z',\n 'nextUpdateDate': None,\n 'tag': {'id': 'AFC', 'text': 'AFC'}}",
+    "crumbs": [
+      "FIFA"
+    ]
+  }
+]
