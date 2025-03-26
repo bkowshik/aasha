@@ -181,3 +181,6 @@ _proc/
 *.out
 *.fls
 *.fdb_latexmk
+
+# Ignore data folders.
+data/
