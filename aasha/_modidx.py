@@ -6,6 +6,6 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/bkowshik/aasha',
                 'lib_path': 'aasha'},
   'syms': { 'aasha.core': {'aasha.core.foo': ('core.html#foo', 'aasha/core.py')},
-            'aasha.fifa': { 'aasha.fifa.fetch_fifa_rankings': ('core.html#fetch_fifa_rankings', 'aasha/fifa.py'),
-                            'aasha.fifa.parse_fifa_rankings': ('core.html#parse_fifa_rankings', 'aasha/fifa.py'),
-                            'aasha.fifa.write_fifa_rankings': ('core.html#write_fifa_rankings', 'aasha/fifa.py')}}}
+            'aasha.fifa': { 'aasha.fifa.fetch_fifa_rankings': ('fifa.html#fetch_fifa_rankings', 'aasha/fifa.py'),
+                            'aasha.fifa.parse_fifa_rankings': ('fifa.html#parse_fifa_rankings', 'aasha/fifa.py'),
+                            'aasha.fifa.write_fifa_rankings': ('fifa.html#write_fifa_rankings', 'aasha/fifa.py')}}}
