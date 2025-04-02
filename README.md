@@ -14,8 +14,8 @@ represent:
 
 ### India Men's National Football Team
 
-![](../images/asha_men.png)
+![](images/asha_men.png)
 
 ### India Women's National Football Team
 
-![](../images/asha_women.png)
+![](images/asha_women.png)
