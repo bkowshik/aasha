@@ -184,3 +184,4 @@ _proc/
 
 # Ignore data folders.
 data/
+nbs/images
